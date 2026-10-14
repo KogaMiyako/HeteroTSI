@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.pth
+*.pkl
+*.npy
+*.npz
+*.log
+outputs/
+data/
+/checkpoints/

@@ -1,0 +1,32 @@
+diffusion:
+  beta_end: 0.2
+  beta_start: 0.0001
+  channels: 64
+  diffusion_embedding_dim: 128
+  layers: 4
+  nheads: 8
+  num_steps: 50
+  schedule: quad
+  seqlen: 24
+model:
+  bias_strength: 10.0
+  featureemb: 16
+  het_gate_init: -2.0
+  het_mask_mode: topk_sparse
+  lightsae_alpha: 0.1
+  lightsae_mode: learnable
+  lightsae_pool_size: 10
+  lightsae_rank: 3
+  neg_bias_strength: 5.0
+  timeemb: 128
+  top_k_ratio: 1.0
+  use_het_mask: true
+  use_lightsae_embed: true
+train:
+  alpha: 1
+  batch_size: 4
+  beta: 0.0
+  epochs: 300
+  eta: 0.5
+  gamma: 0.001
+  lr: 0.001

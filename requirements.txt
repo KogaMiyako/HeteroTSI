@@ -1,0 +1,7 @@
+# Python 3.10. Install into a fresh environment; see README for CPU/CUDA wheels.
+torch==1.13.1
+numpy==1.23.5
+PyYAML==6.0
+tqdm==4.64.1
+info-nce-pytorch==0.1.4
+typing-extensions==4.16.0
